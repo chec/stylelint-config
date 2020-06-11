@@ -11,5 +11,8 @@ module.exports = {
     "indentation": [2, {
       "baseIndentLevel": 0,
     }],
+    'scss/at-rule-no-unknown': [true, {
+      ignoreAtRules: ['apply', 'screen', 'tailwind', 'variants', 'responsive']
+    }]
   },
 }
